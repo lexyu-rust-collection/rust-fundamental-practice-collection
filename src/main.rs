@@ -1,29 +1,27 @@
 #![allow(unused)]
 
-// use rand::Rng;
+mod control_flow;
+mod data_types;
+mod io_demo;
+mod math;
+mod shadowing;
+
+use rand::Rng;
 use std::cmp::Ordering;
 use std::fs::File;
 use std::io::{self, BufRead, BufReader, ErrorKind, Write};
 use std::mem;
 
 fn main() {
-    let num_1: f32 = 1.1111111111111111111;
-    println!("f32: {}", num_1 + 0.1111111111111111111); // .7f
-                                                        // 1.2222223
+    // control_flow::if_statement::output();
+    // control_flow::terrnary_operator::output();
+    control_flow::match_demo::output();
 
-    let num_2: f64 = 1.1111111111111111111;
-    println!("f64: {}", num_2 + 0.1111111111111111111); // .16f
-                                                        // 1.2222222222222223
+    // data_types::numbers_demo::output();
+    // data_types::string_demo::output();
 
-    let mut num_3: u32 = 5;
-    let num_4: u32 = 4;
-    println!("5 + 4 = {}", num_3 + num_4);
-    println!("5 - 4 = {}", num_3 - num_4);
-    println!("5 * 4 = {}", num_3 * num_4);
-    println!("5 / 4 = {}", num_3 / num_4);
-    println!("5 % 4 = {}", num_3 % num_4);
+    // math::mod_math::output();
 
-    num_3 += 1;
-
-    print!("{num_3}");
+    // io_demo::stdin::output();
+    // shadowing::shadow::output();
 }

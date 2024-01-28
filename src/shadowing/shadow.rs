@@ -5,7 +5,7 @@ use std::fs::File;
 use std::io::{self, BufRead, BufReader, ErrorKind, Write};
 use std::mem;
 
-fn main() {
+pub fn output() {
     const ONE_MIL: u32 = 1_000_000;
     const PI: f32 = 3.141592;
     let age = "100";

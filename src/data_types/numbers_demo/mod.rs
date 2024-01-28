@@ -3,9 +3,8 @@
 use std::cmp::Ordering;
 use std::fs::File;
 use std::io::{self, BufRead, BufReader, ErrorKind, Write};
-use std::mem;
 
-fn main() {
+pub fn output() {
     // Unsigned integer: u8, u16, u32, u64, u128, usize
     // Signed integer: i8, i16, i32, i64, i128, isize
 

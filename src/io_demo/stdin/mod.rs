@@ -4,7 +4,7 @@ use std::cmp::Ordering;
 use std::fs::File;
 use std::io::{self, BufRead, BufReader, ErrorKind, Write};
 
-fn main() {
+pub fn output() {
     println!("What's your name?");
     let mut name = String::new();
 
