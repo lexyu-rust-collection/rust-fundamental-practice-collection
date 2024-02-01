@@ -5,6 +5,7 @@ mod control_flow;
 mod data_structure;
 mod data_types;
 mod enums;
+mod functions;
 mod io_demo;
 mod math;
 mod shadowing;
@@ -39,11 +40,14 @@ fn main() {
     // data_structure ------------------------------------------------------>
     // data_structure::arrays::output();
     // data_structure::tuples::output();
-    data_structure::vectors::output();
+    // data_structure::vectors::output();
 
     // casting ------------------------------------------------------>
     // casting::cast::output();
 
     // enunms  ------------------------------------------------------>
     // enums::enums::output();
+
+    // functions  ------------------------------------------------------>
+    functions::fns::output();
 }
