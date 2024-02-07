@@ -61,7 +61,8 @@ fn main() {
     // envs::env_toml_path();
 
     // macros ----------------------------------------------------------->
-    macros::declarative::output();
+    // macros::declarative::output();
+    macros::eg1::output();
 
     // math ------------------------------------------------------>
     // math::mod_math::output();
