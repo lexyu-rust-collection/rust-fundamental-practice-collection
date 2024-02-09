@@ -16,6 +16,7 @@ mod macros;
 mod math;
 mod modules;
 mod ownership;
+mod requests;
 mod shadowing;
 mod smart_pointer;
 mod structs;
@@ -47,12 +48,14 @@ fn main() {
     // data_types ------------------------------------------------------>
     // data_types::numbers_demo::output();
     // data_types::string_demo::output();
+    // data_types::unit_type::output();
 
     // data_structure ------------------------------------------------------>
     // data_structure::arrays::output();
     // data_structure::tuples::output();
     // data_structure::vectors::output();
     // data_structure::hashmaps::output();
+    data_structure::slices::output();
 
     // error_handling ------------------------------------------------------>
     // error_handling::result::output();
@@ -62,7 +65,7 @@ fn main() {
 
     // macros ----------------------------------------------------------->
     // macros::declarative::output();
-    macros::eg1::output();
+    // macros::eg1::output();
 
     // math ------------------------------------------------------>
     // math::mod_math::output();
@@ -89,9 +92,10 @@ fn main() {
     // modules::order_food();
     // order_food();
     // ownership::move_eg::output();
+    // ownership::eg4::output();
 
     // ownership  ------------------------------------------------------>
-    // ownership::eg4::output();
+    // requests
 
     // structs  ------------------------------------------------------>
     // structs::structs::output();

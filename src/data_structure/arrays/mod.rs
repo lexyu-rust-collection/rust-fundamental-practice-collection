@@ -17,4 +17,7 @@ pub fn output() {
         println!("Value : {}", arr_1[loop_idx]);
         loop_idx += 1;
     }
+
+    let ages: [u8; 3] = [100, 20, 50];
+    println!("{:?}", ages);
 }
